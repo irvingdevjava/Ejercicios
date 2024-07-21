@@ -26,7 +26,7 @@ public class Promedio {
                     calificaciones.add(input.nextFloat());
                     break;
                 case 2:
-                    total = 0; // Reiniciar el total antes de calcular el promedio
+                    total = 0; 
                     for (Float calificacion : calificaciones) {
                         total += calificacion;
                     }
